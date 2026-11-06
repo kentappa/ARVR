@@ -1,0 +1,2131 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.6f1 (0e0577a1a2ac) revision 918903'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-aatre doesn't exist
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15720 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T12:09:00Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 32436)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Unity.exe
+-projectPath
+C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV
+-executeMethod
+Baja.Editor.BajaValidation.PrepareAndPlay
+-logFile
+C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV\terrain-final.log
+Successfully changed project path to: C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV
+C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [26644]  Target information:
+
+Player connection [26644]  * "[IP] 10.250.97.66 [Port] 55504 [Flags] 2 [Guid] 3789931145 [EditorId] 3789931145 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AVK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26644] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26644] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-25052" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aatre" at "2026-10-15T12:09:04.4809178Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32436, path: "C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              0d5c659a6056426da1494794665d29e6
+  Correlation Id:          d2638136b6d6bf4c4ccde541d989fe69
+  External correlation Id: 4017581960159040036
+  Machine Id:              x1vkPQkzzdU9479Wsj7xbhiS8JY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aatre" (connect: 4.37s, validation: 0.22s, handshake: 0.83s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aatre-notifications" at "2026-10-15T12:09:05.5287142Z"
+[Licensing::Module] Connected to LicensingClient (PId: 32436, launch time: 0.05, total connection time: 5.41s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469953350836-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 5.49s
+[Licensing::Module] Licensing is initialized (took 4.07s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Initialize engine version: 6000.5.6f1 (0e0577a1a2ac)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD Radeon (TM) Graphics
+[D3D12 Device Filter] Driver Version: 31.0.21925.2001
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 7860 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "ATI", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7860 MB
+    Driver:   31.0.21925.2001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.480901 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 3941ms
+	BeginReloadAssembly (438ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (278ms)
+	initialDomainReloadingComplete (738ms)
+	LoadAllAssembliesAndSetupDomain (1810ms)
+		LoadAssemblies (392ms)
+		AnalyzeDomain (1684ms)
+			TypeCache.Refresh (1681ms)
+				TypeCache.ScanAssembly (1370ms)
+	FinalizeReload (658ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (260ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 4 packages:
+  Built-in packages:
+    com.unity.modules.audio@1.0.0 (location: C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV\Library\PackageCache\com.unity.modules.vehicles)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV
+ExitCode: 0 Duration: 8s167ms
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[165/168    7s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Baja\Editor\BajaValidation.cs(34,27): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[166/168    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[167/168    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (8.08 seconds), 3 items updated, 168 evaluated
+Assets\Baja\Editor\BajaValidation.cs(34,27): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 9.361179s
+Begin MonoManager ReloadAssembly
+Total cache size 66005420
+Total cache size after purge 66005420, took 00:00:00.2352795
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (300ms)
+		DisableScriptedObjects (63ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (134ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (18ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (559ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (8ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Starting new worker id: 0 with log in C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=15965f4bc3537dc4f9d926dab1dbb111): Total: 10.954 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=886 ms
+		Asset DB Callback time: managed=97 ms, native=46 ms
+		Scripting: domain reloads=1, domain reload time=550 ms, compile time=9364 ms, other=9 ms
+		Project Asset Count: scripts=36, non-scripts=43
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 37.789ms
+	ApplyChangesToAssetFolders: 0.694ms
+	Scan: 47.331ms
+	Collect global state as custom dependencies: 18.531ms
+	OnSourceAssetsModified: 1.904ms
+	CategorizeScriptCompilationAssets: 0.216ms
+	ProcessAssetsWithTransientArtifactChanges: 10.054ms
+	CategorizeAssets: 43.003ms
+	CompileScripts: 9363.816ms
+	ImportOutOfDateAssets: 575.884ms (561.629ms without children)
+		UnloadImportedAssets: 0.193ms
+		ImportSchedulerStart: 14.046ms
+	PostProcessAllAssets: 102.466ms
+		VCAutoAddAssetPostprocess 3.201ms
+		ShaderAssetModifiedCallback 0.390ms
+		PostProcessCallbackCreateDeferredMaterials 0.290ms
+		MonoPostProcessAllAssets: 96.386ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 34.195ms
+			AssetPostprocessor.OnPostprocessAllAssets 13.350ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 12.478ms
+			AssetChangedListener.OnPostprocessAllAssets 8.114ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.743ms
+			SyncVS.PostprocessSyncProject 3.057ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.550ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.402ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.062ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.742ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.624ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.385ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.346ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.343ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.236ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.195ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.171ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.163ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.110ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.094ms
+	PostAssetChangesProfiler: 3.895ms
+	UnloadStreamsBegin: 2.102ms
+	GenerateScriptTypeHashes: 0.304ms
+	GenerateScriptTypeSerializationHashes: 0.299ms
+	Untracked: 739.338ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 3.381ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-BajaATV
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Baja/Generated/BajaDemo.unity'
+	Deserialize:            120.678 ms
+	Integration:            372.088 ms
+	Integration of assets:  0.290 ms
+	Thread Wait Time:       -0.228 ms
+	Total Operation Time:   492.829 ms
+Unloading 26 unused Assets / (484.9 KB). Loaded Objects now: 6722.
+Memory consumption went from 219.6 MB to 219.2 MB.
+Total: 9.121900 ms (FindLiveObjects: 0.613500 ms CreateObjectMapping: 0.039100 ms MarkObjects: 7.797400 ms  DeleteObjects: 0.301900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout C:\Users\aatre\Documents\ChatGPT\MIT\BajaATV\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/aatre/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (17.2 MB). Loaded Objects now: 1688.
+Memory consumption went from 394.1 MB to 376.9 MB.
+Total: 15.732700 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.026900 ms MarkObjects: 11.979000 ms  DeleteObjects: 3.591200 ms)
+
+Importing 'GUID: f241f3a52630df14da535b0f2ec88dbe - Path: Assets/Baja/Generated/BajaATV.prefab' with importer (PrefabImporter)
+Imported 'GUID: f241f3a52630df14da535b0f2ec88dbe' -> (Import Result ID: '23512a8d2264c892d22c289de30e8114') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2dcd24aac4d3b5facd470c8b292c774 DependenciesID=940418233df1df1b7bb1409a57d96013 StaticDependenciesID=6c6c42ac6ed4372f234c9b8fba995807 
+Asset Pipeline Refresh (id=b3a617144745cc64295fbee0a29f3cba): Total: 0.117 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e2fcf17495917ee489fed0bad55e184c - Path: Assets/Baja/Generated/Trail obstacle rock.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e2fcf17495917ee489fed0bad55e184c' -> (Import Result ID: '8df2a10379694aa9b77063a9f78eea03') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=ea1ac89e3dcea4551f63acf7553e1e58 DependenciesID=26da624f86c5d7a6ab95fccae17aa496 StaticDependenciesID=d8a6b656cc63b186be840a62d1d884df 
+Asset Pipeline Refresh (id=e4297199af0d704448191f6796f86002): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a793171c9a952a64a9f2175d43c37f8f - Path: Assets/Baja/Generated/Fallen timber.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a793171c9a952a64a9f2175d43c37f8f' -> (Import Result ID: 'ae378aafcfef8c64614e39e94c7fc72b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a8a45425ca96ded13dd8a19d07001f98 DependenciesID=b8e1e35d4596dc5370e3eeafccf4f8f4 StaticDependenciesID=dec195cad3254f937af25bf8f8a58116 
+Asset Pipeline Refresh (id=56faba99783edae43b45d51451ff681a): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 85ae29c1aaf000c4db93af064ede25ab - Path: Assets/Baja/Generated/Dune sand.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 85ae29c1aaf000c4db93af064ede25ab' -> (Import Result ID: 'eefddb07f2b37f491959cbb9b2421caa') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ca77b8c132d83cc41f2644fd2b28b22a DependenciesID=3a2e26336d62df072bd0ce40e5853161 StaticDependenciesID=089eaf990372ecd095530b581292295d 
+Asset Pipeline Refresh (id=b6280d32b776dfa45bcad6d53832de57): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d2000499a52b2014eb61d7e3c8871b5a - Path: Assets/Baja/Generated/SandDuneTerrain.asset' with importer (NativeFormatImporter)
+Imported 'GUID: d2000499a52b2014eb61d7e3c8871b5a' -> (Import Result ID: 'ca357bdfca7b16dcd6e00d3f11328e86') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=95675c444a5ce28e6f90626fdc1fe45c DependenciesID=884075b744c07cad7ca339371aa60b5a StaticDependenciesID=e11bb48d903da33d5a0063b3a58b0dc3 
+Asset Pipeline Refresh (id=3b6d57fa4616f3a4085d492c3575bfc0): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fe2a65db0f7065648a908b84380ffecc - Path: Assets/Baja/Generated/Desert flags.mat' with importer (NativeFormatImporter)
+Imported 'GUID: fe2a65db0f7065648a908b84380ffecc' -> (Import Result ID: '39ab36b47241e4205a9dfe70e3425297') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ba601fbc63bcc58a4ca9501c8d1194a7 DependenciesID=12d56fc15efa257373a4c76c2f36dd64 StaticDependenciesID=5e59440d1147fd7f9057c425c7720524 
+Asset Pipeline Refresh (id=42a879d93dfdc4343ba010c9fc8b365e): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 8dc49ac7ac87cfb4ab27ddb88837d9b0 - Path: Assets/Baja/Generated/Highway verge.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8dc49ac7ac87cfb4ab27ddb88837d9b0' -> (Import Result ID: 'b9bbc0fd331796c45d4d2a610bae6f29') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1fa7235fae0c912be1c51c36d6c78198 DependenciesID=21315f19b670a0f8d7aa29217e17dc78 StaticDependenciesID=37db678b92107d7727cdb5bed27e16ec 
+Asset Pipeline Refresh (id=48c5c526170434d4e92ce1793df8239d): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0525744fc3e84654aa2d5dc35f8b5f03 - Path: Assets/Baja/Generated/Asphalt.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 0525744fc3e84654aa2d5dc35f8b5f03' -> (Import Result ID: 'ed2646f267ea3fb8cef80b1ec147e375') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c13adfbf62bb94f3319eb58082c4b6a1 DependenciesID=6fff9604948aa4159eceeca2a5bb788a StaticDependenciesID=e90b7c1064771bb738dfa80aee3ad903 
+Asset Pipeline Refresh (id=7ef9e4817dbb46948b1e92816f5f4a9d): Total: 0.034 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 1b6a160cad4a13b40a55b9a91632c0d3 - Path: Assets/Baja/Generated/Road white.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 1b6a160cad4a13b40a55b9a91632c0d3' -> (Import Result ID: '372897a99341345db61acd2738e9de35') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=f67aab42f130a4eb64231809f2af73c8 DependenciesID=5d4ab9703bbc2126944b08a1cc51079a StaticDependenciesID=2a86bfbe1c19409e267706438e2a67b5 
+Asset Pipeline Refresh (id=8116e3c607d9ee84d8038b2b9c097313): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e15fb5f0fce0ba4fa920b0e4e9ef36b - Path: Assets/Baja/Generated/Road yellow.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 6e15fb5f0fce0ba4fa920b0e4e9ef36b' -> (Import Result ID: '212226741b7e4f039ec5b8ea56dfb01d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b161e6254c6726b5ec99988097fc4f3c DependenciesID=ab66c3467e4089b9cb07321a744b69ac StaticDependenciesID=1fbd30ae7e1b2deea8bc500c2ddecec8 
+Asset Pipeline Refresh (id=564e79eb5cda8e241af419ba8a93c0aa): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 43ef7343f53a56141befef73a4ba8b7e - Path: Assets/Baja/Generated/Guardrail.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 43ef7343f53a56141befef73a4ba8b7e' -> (Import Result ID: '59382627ccd753468eb3dd61afcc5fe6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=00e33070d7c7925e6a548e6445d88c58 DependenciesID=5ef4f54fe04ecbe92fd262f8a8063938 StaticDependenciesID=94711d31fffe0e47ba97237d77a1c74f 
+Asset Pipeline Refresh (id=b5ca909d8424a7e41ab484e60bf64e74): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 20962475046db5e4cae7297837093447 - Path: Assets/Baja/Generated/Road sign green.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 20962475046db5e4cae7297837093447' -> (Import Result ID: '1a2dec85e0611ec2cc33ce056f86aad5') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3dcadf20a91f907c4e71e4f58bcfff8f DependenciesID=abec3320ef65723b9765d94eed262138 StaticDependenciesID=66a1df6ccaefb909bdf1255943141437 
+Asset Pipeline Refresh (id=7078759fcc9c6734e8f1e52a3358561e): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 20962475046db5e4cae7297837093447 - Path: Assets/Baja/Generated/Road sign green.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 20962475046db5e4cae7297837093447' -> (Import Result ID: 'efbc94e578f8be2f4d8ee44b54b5591b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3dcadf20a91f907c4e71e4f58bcfff8f DependenciesID=9f3c92cd3e1b9081305b4e275a59e38a StaticDependenciesID=342673b38cfe26bb558e25166cb438c7 
+Importing 'GUID: e2fcf17495917ee489fed0bad55e184c - Path: Assets/Baja/Generated/Trail obstacle rock.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e2fcf17495917ee489fed0bad55e184c' -> (Import Result ID: '075ede3d4c9fb65ad6d9dd84cdad5d3d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ea1ac89e3dcea4551f63acf7553e1e58 DependenciesID=92b693833d8b5bc3f4719bb92beb513d StaticDependenciesID=0f4854f0a373ea45b38d1131bee82892 
+Importing 'GUID: 43ef7343f53a56141befef73a4ba8b7e - Path: Assets/Baja/Generated/Guardrail.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 43ef7343f53a56141befef73a4ba8b7e' -> (Import Result ID: '75a95dc01faa9823d4de4744d5e430c6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=00e33070d7c7925e6a548e6445d88c58 DependenciesID=79844656ec88fdb4235df929f54c1c28 StaticDependenciesID=e665457949511bfc4a0682faf116c974 
+Importing 'GUID: 0525744fc3e84654aa2d5dc35f8b5f03 - Path: Assets/Baja/Generated/Asphalt.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 0525744fc3e84654aa2d5dc35f8b5f03' -> (Import Result ID: '798589d508305c75c4ae520272c4f807') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c13adfbf62bb94f3319eb58082c4b6a1 DependenciesID=1f82c99a460cd525d270c3ae94155035 StaticDependenciesID=a25e5e81d91ff2dea1f17822431a0f64 
+Importing 'GUID: 85ae29c1aaf000c4db93af064ede25ab - Path: Assets/Baja/Generated/Dune sand.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 85ae29c1aaf000c4db93af064ede25ab' -> (Import Result ID: '75e7d2d73e1caa5c201b42218fbe79ee') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ca77b8c132d83cc41f2644fd2b28b22a DependenciesID=db7e8ebc11049a52550a45db69085b5d StaticDependenciesID=adc73f849bd451a811c6dbc54cea82aa 
+Importing 'GUID: 0665a60f7eccbe047b11cc0af51a0825 - Path: Assets/Baja/Generated/Landscape.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 0665a60f7eccbe047b11cc0af51a0825' -> (Import Result ID: '459c395e97ec251ed0e6643020e57d5f') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=263e0e6d717bc0a5bd060101af140836 DependenciesID=691757bab7e8cb4739f98917c56686ad StaticDependenciesID=c37ee9317e31ad0c3f498cf18db86f22 
+Importing 'GUID: a793171c9a952a64a9f2175d43c37f8f - Path: Assets/Baja/Generated/Fallen timber.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a793171c9a952a64a9f2175d43c37f8f' -> (Import Result ID: '87fc81cd8ae3f900c5c56c9e3545ebbd') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a8a45425ca96ded13dd8a19d07001f98 DependenciesID=f44b3eb6c056e9c68a11bd9c3b2dfa83 StaticDependenciesID=8c2cbeef96d724f7a54670e69e506e66 
+Importing 'GUID: 89b8a534af539b34e92fe96fca2ef35b - Path: Assets/Baja/Generated/LED.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 89b8a534af539b34e92fe96fca2ef35b' -> (Import Result ID: '9cc151da0bfd7c72089d19281e2675d0') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=e9ba2b49cae3feba8f48e4981e35a1ff DependenciesID=daf124f90baea7de83788e131944f55f StaticDependenciesID=18e3026b04db8e4bd8d007b5b084371d 
+Importing 'GUID: 1b6a160cad4a13b40a55b9a91632c0d3 - Path: Assets/Baja/Generated/Road white.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 1b6a160cad4a13b40a55b9a91632c0d3' -> (Import Result ID: 'd75f3fbf3c9e3ad765e76725e8838c25') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f67aab42f130a4eb64231809f2af73c8 DependenciesID=1277b903fb03ecf66c1c782ca946b34a StaticDependenciesID=f6ef2ed915298ece31499448a0a3ab12 
+Importing 'GUID: 8dc49ac7ac87cfb4ab27ddb88837d9b0 - Path: Assets/Baja/Generated/Highway verge.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8dc49ac7ac87cfb4ab27ddb88837d9b0' -> (Import Result ID: 'b1d0b806c8577b640242e580e6e37698') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1fa7235fae0c912be1c51c36d6c78198 DependenciesID=d1f6e206ed4b2eceebc06f088461c9ad StaticDependenciesID=f1850d0585fa920d001000f6f6eddf39 
+Importing 'GUID: 6e15fb5f0fce0ba4fa920b0e4e9ef36b - Path: Assets/Baja/Generated/Road yellow.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 6e15fb5f0fce0ba4fa920b0e4e9ef36b' -> (Import Result ID: '19c2c817517ea92138ef9f4c4895e57c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b161e6254c6726b5ec99988097fc4f3c DependenciesID=7877e8c45803f2433a67ec10ca6926b8 StaticDependenciesID=ac1a952c5074dc7f223728c0acafe671 
+Importing 'GUID: fe2a65db0f7065648a908b84380ffecc - Path: Assets/Baja/Generated/Desert flags.mat' with importer (NativeFormatImporter)
+Imported 'GUID: fe2a65db0f7065648a908b84380ffecc' -> (Import Result ID: 'c2459c27cfd8d07fa06b3ff3d0690a7c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ba601fbc63bcc58a4ca9501c8d1194a7 DependenciesID=c1b687e11ffeb83f9a5de6c2701836b1 StaticDependenciesID=8c3f7cd3d4f8d52df95fcdac68a356ad 
+Importing 'GUID: 11fdc0444b5a15a4092e9bc7136bc135 - Path: Assets/Baja/Generated/PineRidgeTerrain.asset' with importer (NativeFormatImporter)
+Main Object Name 'Pine Ridge terrain' does not match filename 'PineRidgeTerrain'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 11fdc0444b5a15a4092e9bc7136bc135' -> (Import Result ID: '1b7f3c5be3bc11b69d0ed677b7886b0c') in 0.088 seconds [static dependencies only]. Details - ImportResultOutputID=1cb55eb1763244b75daef001d4b85c79 DependenciesID=361efa5d488d80c3f46d886990bb8d6f StaticDependenciesID=48c8178c7bc3e543e45d1dc8c3f5c918 
+Importing 'GUID: 73c8c427a41fc9941be9c6448600ee98 - Path: Assets/Baja/Generated/Rock shape 5.asset' with importer (NativeFormatImporter)
+Main Object Name 'Sphere(Clone)' does not match filename 'Rock shape 5'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 73c8c427a41fc9941be9c6448600ee98' -> (Import Result ID: '29881d8004f5e1f27a84a55aa8b12d6f') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=94bbabd7906d9d791ba8095601ba4a8a DependenciesID=3e0fd3bbfdb1b6580f9799d13124c61e StaticDependenciesID=05ddf639512582334119339cb948be51 
+Importing 'GUID: b3b50ae6256bec14ebb8c047ed2b43d0 - Path: Assets/Baja/Generated/Rock shape 2.asset' with importer (NativeFormatImporter)
+Main Object Name 'Sphere(Clone)' does not match filename 'Rock shape 2'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: b3b50ae6256bec14ebb8c047ed2b43d0' -> (Import Result ID: '5d021258f3dc644fc15074d1499e7f1f') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=66b3a9c8b88b51df3e124a458b344250 DependenciesID=a668526279d837234ef0308adc85faec StaticDependenciesID=d0951733fa7db89db30eb31e9ed02bd4 
+Importing 'GUID: 04887e2cb7cd53b419ed383a299b4845 - Path: Assets/Baja/Generated/Rock shape 0.asset' with importer (NativeFormatImporter)
+Main Object Name 'Sphere(Clone)' does not match filename 'Rock shape 0'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 04887e2cb7cd53b419ed383a299b4845' -> (Import Result ID: '7a9c9eebd4b5c81e569a2f158a15da6a') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=e617b1941fb7266cd5619f3316c9ecb6 DependenciesID=343d35999f46acac6d806e148bd81cfd StaticDependenciesID=85f75b31a8cc07084c87b268b6c019cf 
+Importing 'GUID: d43a183d36fb208488d7ce695e4f48ae - Path: Assets/Baja/Generated/Rock shape 1.asset' with importer (NativeFormatImporter)
+Main Object Name 'Sphere(Clone)' does not match filename 'Rock shape 1'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: d43a183d36fb208488d7ce695e4f48ae' -> (Import Result ID: '3f742e356c61c580f318c1c9bbe5d1ab') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=c94488cddf3c77bed531d6e263cee003 DependenciesID=9997ab7f15ea34b50aae0d7751168f2e StaticDependenciesID=cbf06284433c6c45fbb639b42b86a53c 
+Importing 'GUID: 857059d0b67a3cb41a7e13cd20233c95 - Path: Assets/Baja/Generated/Side panel 1.asset' with importer (NativeFormatImporter)
+Main Object Name '' does not match filename 'Side panel 1'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 857059d0b67a3cb41a7e13cd20233c95' -> (Import Result ID: '87f4dd931ef70744117841a065cf0689') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=844c7de2be301cdc6a59983237ef287e DependenciesID=7aa61cd7448782745d2439d7848b6052 StaticDependenciesID=dbc08ec08d2cbd7c172ef4f78c202c22 
+Importing 'GUID: 17f52d38352120547b46b002b1e17d4e - Path: Assets/Baja/Generated/Pine canopy.asset' with importer (NativeFormatImporter)
+Main Object Name '' does not match filename 'Pine canopy'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 17f52d38352120547b46b002b1e17d4e' -> (Import Result ID: '3f186112864b30e17e49b4ae4d8051f8') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=45d2aa80efe185f4e419d2af4923d19e DependenciesID=cacfb1682befe888b1eba2002f488f1c StaticDependenciesID=cbf690367bc5a8fb85a165244af04530 
+Importing 'GUID: 684c7e24bef8a624591495c45baa1c35 - Path: Assets/Baja/Generated/Side panel -1.asset' with importer (NativeFormatImporter)
+Main Object Name '' does not match filename 'Side panel -1'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 684c7e24bef8a624591495c45baa1c35' -> (Import Result ID: 'fe4445ee93aa15c35b4f4dea8aecde55') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=04cece8d0bd09e9df78af272c161ca67 DependenciesID=c4b47d14278d7d071d4984363e81ee0e StaticDependenciesID=a4bc117e63fc905c6b69405759c9eb32 
+Importing 'GUID: 59de52d52ba45294eb78090ceb1112fe - Path: Assets/Baja/Generated/Rock shape 3.asset' with importer (NativeFormatImporter)
+Main Object Name 'Sphere(Clone)' does not match filename 'Rock shape 3'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 59de52d52ba45294eb78090ceb1112fe' -> (Import Result ID: 'ee2b91224f8f3774129bb572c9037cff') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=8d7fe68642d496aac07bbbce0e584516 DependenciesID=bfce8f2606fb651eb1a583aa40a1204c StaticDependenciesID=2bfedbd9fa29e9f4f0655fbc765c79e5 
+Importing 'GUID: fb749b5fc45b45a41a073dc446ac9a47 - Path: Assets/Baja/Generated/Sculpted bonnet.asset' with importer (NativeFormatImporter)
+Main Object Name '' does not match filename 'Sculpted bonnet'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: fb749b5fc45b45a41a073dc446ac9a47' -> (Import Result ID: '1e6ade33097b3bdc9b126b9a66b50482') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=238a1e41da5796881ffd7affe3fd761a DependenciesID=d098de1a824a1367b0830fcdab4a0465 StaticDependenciesID=71eaf8cad8e23a2d60baf70bb5535929 
+Importing 'GUID: 4d660c617cb0ca74bb28988fda173b32 - Path: Assets/Baja/Generated/Rock shape 4.asset' with importer (NativeFormatImporter)
+Main Object Name 'Sphere(Clone)' does not match filename 'Rock shape 4'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:126)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+[Assets/Baja/Editor/BajaProjectBuilder.cs line 126]
+
+Imported 'GUID: 4d660c617cb0ca74bb28988fda173b32' -> (Import Result ID: 'e95b1c5833c962e11dba0a08dcc3b212') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=0b1278bc1cc0f252019b913065716a87 DependenciesID=9b309617efbbd3a35a1e2f7c316a410b StaticDependenciesID=517a9e987c8366eca8428f7c2dba902d 
+Asset Pipeline Refresh (id=5883dbc97e421ac47906290e0c638569): Total: 0.222 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ab0d002cc4b503e4bb30e81bebeb3dee - Path: Assets/Baja/Generated/BajaDemo.unity' with importer (DefaultImporter)
+Imported 'GUID: ab0d002cc4b503e4bb30e81bebeb3dee' -> (Import Result ID: 'bf419af0a989b25ac7299f139db2811a') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=4e53de7c6bb43e63ba0f7d7224d49d4c DependenciesID=8749152a062171bafd3257a9b980eff3 StaticDependenciesID=a53c8312bc163a7167dba411728427cc 
+Asset Pipeline Refresh (id=2bf2e2458727cea4796843797829b815): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+BAJA_BUILD_OK: demo scene and vehicle prefab generated.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaProjectBuilder:Build () (at Assets/Baja/Editor/BajaProjectBuilder.cs:129)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:13)
+
+(Filename: Assets/Baja/Editor/BajaProjectBuilder.cs Line: 129)
+
+Opening scene 'Assets/Baja/Generated/BajaDemo.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Baja/Generated/BajaDemo.unity'
+	Deserialize:            83.348 ms
+	Integration:            46.011 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.001 ms
+	Total Operation Time:   129.378 ms
+Unloading 1710 unused Assets / (1.0 MB). Loaded Objects now: 8722.
+Memory consumption went from 388.1 MB to 387.2 MB.
+Total: 10.839500 ms (FindLiveObjects: 0.715900 ms CreateObjectMapping: 0.217000 ms MarkObjects: 8.797100 ms  DeleteObjects: 1.107900 ms)
+
+PASS: Vehicle with four wheels
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:35)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: All four wheels settle on ground
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:43)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Chassis settles above ground
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:44)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Tyre swap 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:50)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension swap 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:59)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Tyre swap 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:50)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension swap 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:59)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Tyre swap 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:50)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exactly one tyre model active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:56)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension swap 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:59)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Suspension model 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:64)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Vehicle accelerates forwards
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:72)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Driving speed exceeds 3 km/h
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:73)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Part swaps blocked while driving
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:75)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Brakes reduce speed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:79)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Landscape collision exists
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:81)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Landscape material assigned
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:82)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 20
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 20
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 40
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 40
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 60
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 60
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 80
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 80
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail ground at 120
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:86)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Trail clear of props at 120
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:87)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Garage locks vehicle physics and input
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:93)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Garage stays assembled without hover
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:95)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exploded wheels move away from mounts
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:100)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Exploded view preserves physics mounts
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:101)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Leaving hover reassembles vehicle
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:104)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Tyre hover opens exploded view
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:107)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Reassembly keeps driving locked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:109)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Terrain screen holds vehicle before driving
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:112)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Only selected terrain active: 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:117)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Spawn ground exists: 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:118)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Spawn uses selected terrain: 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:119)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Only selected terrain active: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:117)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Spawn ground exists: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:118)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Spawn uses selected terrain: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:119)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Only selected terrain active: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:117)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Spawn ground exists: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:118)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Spawn uses selected terrain: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:119)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Garage restores driving
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:123)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Vehicle settles safely on terrain 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:136)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Selected parts retained on terrain 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:138)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Vehicle settles safely on terrain 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:136)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Selected parts retained on terrain 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:138)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Vehicle settles safely on terrain 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:136)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+PASS: Selected parts retained on terrain 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Require (bool,string) (at Assets/Baja/Editor/BajaValidation.cs:148)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:138)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 148)
+
+BAJA_VALIDATION_OK: vehicle physics, hover inspection, terrain selection and all three spawns passed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Baja.Editor.BajaValidation:Validate () (at Assets/Baja/Editor/BajaValidation.cs:141)
+Baja.Editor.BajaValidation:Run () (at Assets/Baja/Editor/BajaValidation.cs:23)
+Baja.Editor.BajaValidation:PrepareAndPlay () (at Assets/Baja/Editor/BajaValidation.cs:14)
+
+(Filename: Assets/Baja/Editor/BajaValidation.cs Line: 141)
+
+Opening scene 'Assets/Baja/Generated/BajaDemo.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Baja/Generated/BajaDemo.unity'
+	Deserialize:            88.530 ms
+	Integration:            49.652 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   138.208 ms
+Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 8722.
+Memory consumption went from 387.7 MB to 387.7 MB.
+Total: 11.407400 ms (FindLiveObjects: 0.689200 ms CreateObjectMapping: 0.044000 ms MarkObjects: 10.641500 ms  DeleteObjects: 0.031400 ms)
+
+Opening scene 'Assets/Baja/Generated/BajaDemo.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Baja/Generated/BajaDemo.unity'
+	Deserialize:            88.145 ms
+	Integration:            47.119 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   135.285 ms
+Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 8722.
+Memory consumption went from 387.7 MB to 387.7 MB.
+Total: 9.987300 ms (FindLiveObjects: 0.591300 ms CreateObjectMapping: 0.036800 ms MarkObjects: 9.324500 ms  DeleteObjects: 0.033600 ms)
+
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 42.225 seconds
+	Project init time: 				33.051 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		4.427 seconds
+		Asset Database init time: 		1.057 seconds
+		Global illumination init time: 	0.013 seconds
+		Assemblies load time: 			13.406 seconds
+		Unity extensions init time: 	0.001 seconds
+		Asset Database refresh time: 	10.955 seconds
+	Scene opening time: 			8.957 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792066182274,"processId":25052,"projectLoad":42.2247761,"projectInit":33.0508073,"templateInit":0.0,"packageManagerInit":4.4267008,"assetDatabaseInit":1.0574376,"globalIlluminationInit":0.0128276,"assembliesLoad":13.406478,"unityExtensionsInit":0.0005267,"assetDatabaseRefresh":10.9552136,"sceneOpening":8.9568584}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792066182288,"processId":25052,"editorVersion":"6000.5.6f1 (0e0577a1a2ac)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.211 seconds
+Domain Reload Profiling: 1816ms
+	BeginReloadAssembly (421ms)
+		ExecutionOrderSort (7ms)
+		DisableScriptedObjects (134ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (128ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (1212ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (606ms)
+
+Asset Pipeline Refresh (id=e7443c76f5b1fbe4087d9db5f2eaa982): Total: 1.938 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1255 ms
+		Asset DB Callback time: managed=38 ms, native=3 ms
+		Scripting: domain reloads=1, domain reload time=638 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=36, non-scripts=54
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.111ms
+	Collect global state as custom dependencies: 1.411ms
+	ProcessAssetsWithTransientArtifactChanges: 0.845ms
+	CategorizeAssets: 0.511ms
+	CompileScripts: 1.640ms
+	ImportOutOfDateAssets: 1215.252ms (1212.571ms without children)
+		UnloadImportedAssets: 2.078ms
+		ImportSchedulerStart: 0.557ms
+	PostProcessAllAssets: 39.647ms
+		PostProcessCallbackCreateDeferredMaterials 0.069ms
+		MonoPostProcessAllAssets: 38.583ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.337ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.720ms
+			AssetPostprocessor.OnPostprocessAllAssets 5.345ms
+			SyncVS.PostprocessSyncProject 2.238ms
+			AssetChangedListener.OnPostprocessAllAssets 1.988ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.255ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.858ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.650ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.536ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.361ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.327ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.302ms
+			AssetEvents.OnPostprocessAllAssets 0.238ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.222ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.173ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.166ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.160ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.157ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.138ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.099ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.085ms
+	PostAssetChangesProfiler: 2.332ms
+	UnloadStreamsBegin: 1.839ms
+	Untracked: 667.704ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            31.835 ms
+	Integration:            136.183 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   168.046 ms
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=292001715d4914a41a4c85eb3fcb0078): Total: 0.014 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Created GICache directory at C:/Users/aatre/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.040s, timestamps: [45.695 - 45.734]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            23.099 ms
+	Integration:            49.620 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   72.741 ms
+Unloading 14 unused Assets / (3.4 KB). Loaded Objects now: 8726.
+Memory consumption went from 389.7 MB to 389.7 MB.
+Total: 12.063100 ms (FindLiveObjects: 0.708900 ms CreateObjectMapping: 0.040000 ms MarkObjects: 11.237700 ms  DeleteObjects: 0.074800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: f241f3a52630df14da535b0f2ec88dbe - Path: Assets/Baja/Generated/BajaATV.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6fce2aa7ca07f9ef34592057c1f509f3') in 0.2399831 seconds
+Starting new worker id: 2 with log in C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: ab0d002cc4b503e4bb30e81bebeb3dee - Path: Assets/Baja/Generated/BajaDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a1923f2487ae460d642a0341b858797') in 0.0491958 seconds
+[Worker0] Imported GUID: 857059d0b67a3cb41a7e13cd20233c95 - Path: Assets/Baja/Generated/Side panel 1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '06100eec11c61c5114e87230b258fd0f') in 0.0148827 seconds
+[Worker0] Imported GUID: 04887e2cb7cd53b419ed383a299b4845 - Path: Assets/Baja/Generated/Rock shape 0.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '80bf9e15fe4fcb916afa3dd66500cb0e') in 0.0080601 seconds
+[Worker0] Imported GUID: 2b6ca17ab75085045bcc456a27290e85 - Path: Assets/Baja/Editor/BajaValidation.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0640ae2a1f746681a04275d218e019fc') in 0.0090447 seconds
+[Worker0] Imported GUID: 20962475046db5e4cae7297837093447 - Path: Assets/Baja/Generated/Road sign green.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd058dba9ce9539c59f68844364d044dc') in 0.0473179 seconds
+[Worker0] Imported GUID: 5d4762f3b94f8984a82af2dd6ea2dc5b - Path: Assets/Baja/Scripts/BajaGarage.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '34955fcf346cdfc13ae3e0ce724820c7') in 0.005193 seconds
+[Worker0] Imported GUID: 0941514d1461a5545af7ab578019419e - Path: Assets/Baja/Editor/BajaTerrainBuilder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '082a2786eb53d97faf41096c2189baa6') in 0.006012 seconds
+[Worker0] Imported GUID: 11fdc0444b5a15a4092e9bc7136bc135 - Path: Assets/Baja/Generated/PineRidgeTerrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '111d1b4d1feea444c6d4dd03d4200a1d') in 0.0704319 seconds
+[Worker0] Imported GUID: e2fcf17495917ee489fed0bad55e184c - Path: Assets/Baja/Generated/Trail obstacle rock.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6bcd4bf4ef0d8a94365b00d99e830737') in 0.005799 seconds
+[Worker0] Imported GUID: fe2a65db0f7065648a908b84380ffecc - Path: Assets/Baja/Generated/Desert flags.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '31a47cc5b85c25a789a338d5f203a66b') in 0.0074754 seconds
+[Worker0] Imported GUID: 4dd8e2fbf0956e443b8f70e4377e66a2 - Path: Assets/Baja/Editor/BajaProjectBuilder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '03270b97ea45899432a565c58424144f') in 0.0042307 seconds
+[Worker0] Imported GUID: d35d90a591a84d745b9f6a3af47024a4 - Path: Assets/Baja/Scripts/BajaTerrains.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '426cd1f4593fe4a4745b304afa8c369c') in 0.0042021 seconds
+[Worker0] Imported GUID: 684c7e24bef8a624591495c45baa1c35 - Path: Assets/Baja/Generated/Side panel -1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c2fc0e12b586d48711a6393c719d1550') in 0.0061063 seconds
+[Worker0] Imported GUID: 43ef7343f53a56141befef73a4ba8b7e - Path: Assets/Baja/Generated/Guardrail.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3e9556ba480c721f760a52e5402edbc4') in 0.005738 seconds
+[Worker0] Imported GUID: 17f52d38352120547b46b002b1e17d4e - Path: Assets/Baja/Generated/Pine canopy.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7275ac410391847c126a56672c3da9b8') in 0.0055741 seconds
+[Worker0] Imported GUID: a793171c9a952a64a9f2175d43c37f8f - Path: Assets/Baja/Generated/Fallen timber.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cdb154d42f5418fb2791c51f682e1975') in 0.006999 seconds
+[Worker0] Imported GUID: a19a670a6684c834095e654edb00cc5b - Path: Assets/Baja/Scripts/BajaDisplay.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4d7d1b1c6d59c0bb2f49816914226eb2') in 0.0061615 seconds
+[Worker0] Imported GUID: 4d660c617cb0ca74bb28988fda173b32 - Path: Assets/Baja/Generated/Rock shape 4.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '60f370cb0b4a12e44433e562b9d31ddd') in 0.0066701 seconds
+[Worker0] Imported GUID: 85ae29c1aaf000c4db93af064ede25ab - Path: Assets/Baja/Generated/Dune sand.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7d528e424b57876a8bc46a669e36d73a') in 0.0074228 seconds
+[Worker0] Imported GUID: d43a183d36fb208488d7ce695e4f48ae - Path: Assets/Baja/Generated/Rock shape 1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f3f7d1625e0d2f2962af4ca58a2c263') in 0.0079576 seconds
+[Worker0] Imported GUID: 0525744fc3e84654aa2d5dc35f8b5f03 - Path: Assets/Baja/Generated/Asphalt.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e369308e6c25287a63c000fc75bf0fae') in 0.0076481 seconds
+[Worker0] Imported GUID: 1b6a160cad4a13b40a55b9a91632c0d3 - Path: Assets/Baja/Generated/Road white.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a3eb98a9fc05668e0621f19b5fbd35f7') in 0.0057655 seconds
+[Worker0] Imported GUID: fb749b5fc45b45a41a073dc446ac9a47 - Path: Assets/Baja/Generated/Sculpted bonnet.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '88eb2c8910d43b197979e53d8ba8eb8b') in 0.0058042 seconds
+[Worker0] Imported GUID: 73c8c427a41fc9941be9c6448600ee98 - Path: Assets/Baja/Generated/Rock shape 5.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4a89f5c4f29e8f77c51c5f28d1d4ea26') in 0.0061663 seconds
+[Worker0] Imported GUID: 6e15fb5f0fce0ba4fa920b0e4e9ef36b - Path: Assets/Baja/Generated/Road yellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd57c15d506a5094a65c5a71626e27dee') in 0.0053306 seconds
+[Worker0] Imported GUID: 59de52d52ba45294eb78090ceb1112fe - Path: Assets/Baja/Generated/Rock shape 3.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '874263c673dd38363926748ce40647be') in 0.0067552 seconds
+[Worker0] Imported GUID: 8dc49ac7ac87cfb4ab27ddb88837d9b0 - Path: Assets/Baja/Generated/Highway verge.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '419d2ae2ff0eb40fe4e07b2b31c9e24b') in 0.0068441 seconds
+[Worker0] Imported GUID: b3b50ae6256bec14ebb8c047ed2b43d0 - Path: Assets/Baja/Generated/Rock shape 2.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ba433de9e1239c8f794f735ba67ae9ab') in 0.0073966 seconds
+[Worker0] Imported GUID: b7953584deeabff45b53b280ee3ea036 - Path: Assets/Baja/Scripts/BajaVehicle.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9e8216fa707a65c791ed34729494bfe1') in 0.0043058 seconds
+[Worker0] Imported GUID: d2000499a52b2014eb61d7e3c8871b5a - Path: Assets/Baja/Generated/SandDuneTerrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f5f1e8a26c1ba6a0232d2d5603ce5abc') in 0.0615624 seconds
+Worker ready: AssetImportWorkerHW2 2
+Worker ready: AssetImportWorkerHW1 1
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.309 seconds
+Domain Reload Profiling: 1890ms
+	BeginReloadAssembly (397ms)
+		DisableScriptedObjects (82ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (126ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+	FinalizeReload (1310ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (648ms)
+
+Asset Pipeline Refresh (id=32a0b98b850beff49962428c6c1f4eaf): Total: 2.046 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1363 ms
+		Asset DB Callback time: managed=47 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=632 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=36, non-scripts=54
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.645ms
+	ApplyChangesToAssetFolders: 0.067ms
+	Collect global state as custom dependencies: 2.574ms
+	CategorizeAssets: 0.511ms
+	CompileScripts: 1.745ms
+	ImportOutOfDateAssets: 1311.547ms (1310.262ms without children)
+		UnloadImportedAssets: 0.466ms
+		ImportSchedulerStart: 0.775ms
+	PostProcessAllAssets: 47.342ms
+		MonoPostProcessAllAssets: 47.334ms
+			SyncVS.PostprocessSyncProject 27.319ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.069ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.720ms
+			AssetPostprocessor.OnPostprocessAllAssets 5.345ms
+			AssetChangedListener.OnPostprocessAllAssets 1.988ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.255ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.885ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.650ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.536ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.354ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.327ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.302ms
+			AssetEvents.OnPostprocessAllAssets 0.238ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.222ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.187ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.176ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.173ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.160ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.138ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.093ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.085ms
+	UnloadStreamsBegin: 0.067ms
+	Untracked: 672.861ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            31.348 ms
+	Integration:            87.809 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.001 ms
+	Total Operation Time:   119.178 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=c79f269bb0718864d8548fad9f675ac4): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=14484134491711d41aab89a23aa9fb30): Total: 0.002 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=48e4f605fae3154479a477cea9193168): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=956d8354ecc765e44b4020123833d411): Total: 0.002 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=502a407dc01b31444b5d9c78c922c6fb): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Asset Pipeline Refresh (id=f56dc5e436519ac499c671c8b7b9d24f): Total: 0.044 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/aatre/Documents/ChatGPT/MIT/BajaATV
+ExitCode: 0 Duration: 0s888ms
+[162/168    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[166/168    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[167/168    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (0.83 seconds), 3 items updated, 168 evaluated
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Total cache size 66005420
+Begin MonoManager ReloadAssembly
+Total cache size after purge 66005420, took 00:00:00.1375002
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.069 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (417ms)
+		DisableScriptedObjects (71ms)
+		CreateAndSetChildDomain (124ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (124ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (1070ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (393ms)
+
+Asset Pipeline Refresh (id=3a1fb7d9e909aa9408b17aa6cc9b4047): Total: 1.783 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1106 ms
+		Asset DB Callback time: managed=22 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=650 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=36, non-scripts=54
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.362ms
+	ApplyChangesToAssetFolders: 0.071ms
+	Collect global state as custom dependencies: 1.269ms
+	CategorizeAssets: 0.512ms
+	CompileScripts: 1.823ms
+	ImportOutOfDateAssets: 1071.868ms (1071.024ms without children)
+		UnloadImportedAssets: 0.138ms
+		ImportSchedulerStart: 0.660ms
+	PostProcessAllAssets: 22.815ms
+		MonoPostProcessAllAssets: 22.810ms
+			AssetChangedListener.OnPostprocessAllAssets 9.229ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.871ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.971ms
+			AssetPostprocessor.OnPostprocessAllAssets 6.293ms
+			SyncVS.PostprocessSyncProject 2.316ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.475ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.329ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.905ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.625ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.426ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.356ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.332ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.328ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.249ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.238ms
+			AssetEvents.OnPostprocessAllAssets 0.238ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.232ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.216ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.172ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.116ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.091ms
+	Untracked: 678.726ms
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=17231e7940f916b49829b2e78ea94155): Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Scanning for USB devices : 3.073ms
+Scanning for USB devices : 2.456ms
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Scanning for USB devices : 2.477ms
+Scanning for USB devices : 2.809ms
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=87a8e6bad3cddb749a553613920d507b): Total: 0.043 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Scanning for USB devices : 2.840ms
+Scanning for USB devices : 2.658ms
+Scanning for USB devices : 2.901ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 2.429ms
+Scanning for USB devices : 2.844ms
+Scanning for USB devices : 2.557ms
+Scanning for USB devices : 2.600ms
+Scanning for USB devices : 2.920ms
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Scanning for USB devices : 2.522ms
+Scanning for USB devices : 2.798ms
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 0.739ms
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+IPCStream (Upm-25052): IPC stream failed to read (Not connected)
